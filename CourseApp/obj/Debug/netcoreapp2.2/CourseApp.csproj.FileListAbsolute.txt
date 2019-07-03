@@ -55,3 +55,33 @@ C:\Users\Ortak\src\.net Core\CourseApp\obj\Debug\netcoreapp2.2\CourseApp.Views.p
 C:\Users\Ortak\src\.net Core\CourseApp\obj\Debug\netcoreapp2.2\CourseApp.dll
 C:\Users\Ortak\src\.net Core\CourseApp\obj\Debug\netcoreapp2.2\CourseApp.pdb
 C:\Users\Ortak\src\.net Core\CourseApp\obj\Debug\netcoreapp2.2\CourseApp.csproj.CopyComplete
+C:\Users\Ortak\src\NET-Core\CourseApp\bin\Debug\netcoreapp2.2\CourseApp.deps.json
+C:\Users\Ortak\src\NET-Core\CourseApp\bin\Debug\netcoreapp2.2\CourseApp.runtimeconfig.json
+C:\Users\Ortak\src\NET-Core\CourseApp\bin\Debug\netcoreapp2.2\CourseApp.runtimeconfig.dev.json
+C:\Users\Ortak\src\NET-Core\CourseApp\bin\Debug\netcoreapp2.2\CourseApp.dll
+C:\Users\Ortak\src\NET-Core\CourseApp\bin\Debug\netcoreapp2.2\CourseApp.pdb
+C:\Users\Ortak\src\NET-Core\CourseApp\bin\Debug\netcoreapp2.2\CourseApp.Views.dll
+C:\Users\Ortak\src\NET-Core\CourseApp\bin\Debug\netcoreapp2.2\CourseApp.Views.pdb
+C:\Users\Ortak\src\NET-Core\CourseApp\obj\Debug\netcoreapp2.2\CourseApp.csprojAssemblyReference.cache
+C:\Users\Ortak\src\NET-Core\CourseApp\obj\Debug\netcoreapp2.2\CourseApp.csproj.CoreCompileInputs.cache
+C:\Users\Ortak\src\NET-Core\CourseApp\obj\Debug\netcoreapp2.2\CourseApp.RazorAssemblyInfo.cache
+C:\Users\Ortak\src\NET-Core\CourseApp\obj\Debug\netcoreapp2.2\CourseApp.RazorAssemblyInfo.cs
+C:\Users\Ortak\src\NET-Core\CourseApp\obj\Debug\netcoreapp2.2\CourseApp.AssemblyInfoInputs.cache
+C:\Users\Ortak\src\NET-Core\CourseApp\obj\Debug\netcoreapp2.2\CourseApp.AssemblyInfo.cs
+C:\Users\Ortak\src\NET-Core\CourseApp\obj\Debug\netcoreapp2.2\CourseApp.TagHelpers.input.cache
+C:\Users\Ortak\src\NET-Core\CourseApp\obj\Debug\netcoreapp2.2\CourseApp.TagHelpers.output.cache
+C:\Users\Ortak\src\NET-Core\CourseApp\obj\Debug\netcoreapp2.2\CourseApp.RazorCoreGenerate.cache
+C:\Users\Ortak\src\NET-Core\CourseApp\obj\Debug\netcoreapp2.2\Razor\Views\Course\Apply.g.cshtml.cs
+C:\Users\Ortak\src\NET-Core\CourseApp\obj\Debug\netcoreapp2.2\Razor\Views\Course\Details.g.cshtml.cs
+C:\Users\Ortak\src\NET-Core\CourseApp\obj\Debug\netcoreapp2.2\Razor\Views\Course\index.g.cshtml.cs
+C:\Users\Ortak\src\NET-Core\CourseApp\obj\Debug\netcoreapp2.2\Razor\Views\Course\list.g.cshtml.cs
+C:\Users\Ortak\src\NET-Core\CourseApp\obj\Debug\netcoreapp2.2\Razor\Views\Home\about.g.cshtml.cs
+C:\Users\Ortak\src\NET-Core\CourseApp\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.g.cshtml.cs
+C:\Users\Ortak\src\NET-Core\CourseApp\obj\Debug\netcoreapp2.2\Razor\Views\_ViewImports.g.cshtml.cs
+C:\Users\Ortak\src\NET-Core\CourseApp\obj\Debug\netcoreapp2.2\CourseApp.RazorTargetAssemblyInfo.cache
+C:\Users\Ortak\src\NET-Core\CourseApp\obj\Debug\netcoreapp2.2\CourseApp.RazorTargetAssemblyInfo.cs
+C:\Users\Ortak\src\NET-Core\CourseApp\obj\Debug\netcoreapp2.2\CourseApp.Views.pdb
+C:\Users\Ortak\src\NET-Core\CourseApp\obj\Debug\netcoreapp2.2\CourseApp.dll
+C:\Users\Ortak\src\NET-Core\CourseApp\obj\Debug\netcoreapp2.2\CourseApp.pdb
+C:\Users\Ortak\src\NET-Core\CourseApp\obj\Debug\netcoreapp2.2\CourseApp.csproj.CopyComplete
+C:\Users\Ortak\src\NET-Core\CourseApp\obj\Debug\netcoreapp2.2\Razor\Views\Course\Thanks.g.cshtml.cs

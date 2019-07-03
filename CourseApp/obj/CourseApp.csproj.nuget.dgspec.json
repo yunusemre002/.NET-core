@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Ortak\\src\\.net Core\\CourseApp\\CourseApp.csproj": {}
+    "C:\\Users\\Ortak\\src\\NET-Core\\CourseApp\\CourseApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Ortak\\src\\.net Core\\CourseApp\\CourseApp.csproj": {
+    "C:\\Users\\Ortak\\src\\NET-Core\\CourseApp\\CourseApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ortak\\src\\.net Core\\CourseApp\\CourseApp.csproj",
+        "projectUniqueName": "C:\\Users\\Ortak\\src\\NET-Core\\CourseApp\\CourseApp.csproj",
         "projectName": "CourseApp",
-        "projectPath": "C:\\Users\\Ortak\\src\\.net Core\\CourseApp\\CourseApp.csproj",
+        "projectPath": "C:\\Users\\Ortak\\src\\NET-Core\\CourseApp\\CourseApp.csproj",
         "packagesPath": "C:\\Users\\Ortak\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ortak\\src\\.net Core\\CourseApp\\obj\\",
+        "outputPath": "C:\\Users\\Ortak\\src\\NET-Core\\CourseApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

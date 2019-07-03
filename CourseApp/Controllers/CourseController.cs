@@ -1,3 +1,4 @@
+using System.Linq;
 using CourseApp.Models;
 using Microsoft.AspNetCore.Mvc;
 
@@ -25,18 +26,31 @@ namespace CourseApp.Controllers
             return View(course);
         }
 
-
+        [HttpGet]  // yazmasanda burada buyazıyor.
         public IActionResult Apply()
         {
-          //TODO: Implement Realistic Implementation
           return View();
+        }
+
+        // localhost: 5000/course/apply method:POST
+        // Name=value&Email=value&Phone=value&Confirm=value
+
+        [HttpPost] // FORMDAN Servera bir bilgi gönderiyoruz. 
+
+        public IActionResult Apply(Student student )
+        {
+          //Model binding
+          //database kayıt
+          Repository.AddStudent(student);
+          return View("Thanks", student);
         }
 
         //action method
         //localhost:5000/course/list => course/list.cshtml
         public IActionResult List()
         {
-            return View();
+            var students = Repository.Students.Where(i=>i.Confirm==true);
+            return View(students);
         }
     }
 }

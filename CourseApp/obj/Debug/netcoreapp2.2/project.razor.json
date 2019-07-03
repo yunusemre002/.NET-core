@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Users\\Ortak\\src\\.net Core\\CourseApp\\CourseApp.csproj",
+  "FilePath": "c:\\Users\\Ortak\\src\\NET-Core\\CourseApp\\CourseApp.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-2.1",
     "LanguageVersion": "2.1",
@@ -203,7 +203,7 @@
             "IsEnum": false,
             "IndexerNamePrefix": null,
             "IndexerTypeName": null,
-            "Documentation": null,
+            "Documentation": "\n            <summary>\n            The name of the action method.\n            </summary>\n            <remarks>\n            Must be <c>null</c> if <see cref=\"P:Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper.Route\" /> or <see cref=\"P:Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper.Page\" /> is non-<c>null</c>.\n            </remarks>\n        ",
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "Action"
@@ -2943,6 +2943,11 @@
   "RootNamespace": "CourseApp",
   "Documents": [
     {
+      "FilePath": "Views\\Course\\Thanks.cshtml",
+      "TargetPath": "Views\\Course\\Thanks.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "Views\\Home\\Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
       "FileKind": "mvc"
@@ -2963,8 +2968,8 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "Views\\Course\\list.cshtml",
-      "TargetPath": "Views\\Course\\list.cshtml",
+      "FilePath": "Views\\Course\\List.cshtml",
+      "TargetPath": "Views\\Course\\List.cshtml",
       "FileKind": "mvc"
     },
     {
