@@ -41,8 +41,15 @@ namespace CourseApp.Controllers
         {
           //Model binding
           //database kayıt
-          Repository.AddStudent(student);
-          return View("Thanks", student);
+          if (ModelState.IsValid)
+          {
+            Repository.AddStudent(student);
+            return View("Thanks", student);
+          }
+          else{
+              return View(student); //kullanıcının girdiği hatalı bilgilerde view üzerine taşınsın kullanıcı hatalrının görebilsin.
+          }
+         
         }
 
         //action method

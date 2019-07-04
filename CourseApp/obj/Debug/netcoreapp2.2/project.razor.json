@@ -2968,8 +2968,8 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "Views\\Course\\List.cshtml",
-      "TargetPath": "Views\\Course\\List.cshtml",
+      "FilePath": "Views\\Course\\list.cshtml",
+      "TargetPath": "Views\\Course\\list.cshtml",
       "FileKind": "mvc"
     },
     {
