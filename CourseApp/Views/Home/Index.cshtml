@@ -5,17 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Home</title>
+    <link rel="stylesheet" href="/modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="~/css/style.css">
 </head>
 <body>
-    
-    <p>
-        @ViewBag.Greeting 
-        @ViewBag.UserName, Nasılsın? 
-    </p>
-    <p>Umarım Kurslarımızdan Memnunsunuzdur.</p> 
-    <p>
-        <a asp-action="apply"   asp-controller="course">Başvuru yap</a>
-    </p>
+    <div class="container m-4">
+        <div class="card mx-auto" style="width=500px;">
+            <div style="card-header">
+                @ViewBag.Greeting @ViewBag.UserName, Nasılsın? 
+            </div>
+            <div class="card-body">
+                <p class="card-text">Umarım Kurslarımızdan Memnunsunuzdur...</p>
+                <a asp-action="apply" asp-controller="course" class="btn btn-primary btn-block">Başvuru yap</a>
+            </div>
+        </div>
+    </div>
 
 </body>
 </html>
