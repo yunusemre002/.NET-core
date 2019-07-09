@@ -98,3 +98,4 @@ C:\Users\Ortak\src\NET-Core\MovieApp\obj\Debug\netcoreapp2.2\MovieApp.Views.pdb
 C:\Users\Ortak\src\NET-Core\MovieApp\obj\Debug\netcoreapp2.2\MovieApp.dll
 C:\Users\Ortak\src\NET-Core\MovieApp\obj\Debug\netcoreapp2.2\MovieApp.pdb
 C:\Users\Ortak\src\NET-Core\MovieApp\obj\Debug\netcoreapp2.2\MovieApp.csproj.CopyComplete
+C:\Users\Ortak\src\NET-Core\MovieApp\obj\Debug\netcoreapp2.2\Razor\Views\Home\Details.g.cshtml.cs

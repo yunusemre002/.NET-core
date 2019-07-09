@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using MovieApp.Data;
 using MovieApp.Models;
 
 namespace MovieApp.Controllers
@@ -7,12 +8,27 @@ namespace MovieApp.Controllers
     {
         public IActionResult Index()
         {
-            return View(Repository.Movies);
+            // ProductR>epository.Movies
+            // CatogoryRepository.Categories
+
+            MovieCategoryModel model = new MovieCategoryModel();
+            model.Categories = CategoryRepository.Categories;
+            model.Movies = MovieRepository.Movies;
+
+            return View(model);
         }
 
         public IActionResult Contact()
         {
             return View();
+        }
+        public IActionResult Details(int id)
+        {
+            MovieCategoryModel model = new MovieCategoryModel();
+            model.Categories = CategoryRepository.Categories;
+            model.Movie = MovieRepository.GetById(id);
+
+            return View(model);
         }
     }
 }
