@@ -1,0 +1,79 @@
+@model IEnumerable<SutunMemtext>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Course</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">  
+    <link rel="stylesheet" href="/modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="~/css/style.css">
+</head>
+<body>
+
+
+     <div >
+        <div class="card-header">
+            Görevler 
+        </div>
+            <table class="table table-bordered table-striped">
+            <thead>
+                <tr class="font-weight-bold" class="text-warning" >
+                    <td>Talep Geliş Tarihi</td>
+                    <td>Temrin</td>
+                    <td>Artikel</td>
+                    <td>Müşteri Model Numarası</td>
+                    <td>Beden</td>
+                    <td>Renk</td>
+                    <td>Numune Tipi</td>
+                    <td>Modelist ve Argeci</td>
+                    <td>Model Açıklaması</td>
+                    <td>Aksesuar Sipariş Tarihi</td>
+                    <td>Aksesuar Temrin</td>
+                    <td>Örgü Bitiş Tarihi</td>
+                    <td>Planlnan Boya Gönderim</td>
+                    <td>Boyadan geliş</td>
+                    <td>Dikim Bitiş</td>
+                    <td>Son Durum</td>
+                    <td>Teslim Tarihi</td>
+                    <td>Gecikme Açıklama</td>
+                    <td>Teslim Süresi</td>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var sutun in Model)
+                {
+                    <tr>
+                        <td>@sutun.TalepGelisTarihi</td>
+                        <td>@sutun.Temrin</td>
+                        <td>@sutun.Artikel</td>
+                        <td>@sutun.MusteriModelNumarasi</td>
+                        <td>@sutun.Beden</td>
+                        <td>@sutun.Renk</td>
+                        <td>@sutun.NumuneTipi</td>
+                        <td>@sutun.ModelistVeArgeci</td>
+                        <td>@sutun.ModelAciklamasi</td>
+                        <td>@sutun.AksesuarSiparisTarihi</td>
+                        <td>@sutun.AksesuarTemrin</td>
+                        <td>@sutun.OrguBitisTarihi</td>
+                        <td>@sutun.PlanlananBoyaGonderim</td>
+                        <td>@sutun.BoyadanGelis</td>
+                        <td>@sutun.DikimBitis</td>
+                        <td>@sutun.SonDurum</td>
+                        <td>@sutun.TeslimTarihi</td>
+                        <td>@sutun.GecikmeAciklama</td>
+                        <td>@sutun.TeslimSuresi</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+        </div>
+
+
+   
+    
+   
+
+</body>
+</html>

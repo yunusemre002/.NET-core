@@ -1,0 +1,118 @@
+﻿@model SutunMemtext
+
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Apply</title>
+    <link rel="stylesheet" href="/modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="~/css/style.css">
+</head>
+<body>
+
+     <div class="container m-10">
+            <div class="card mx-auto" style="width:500px;">
+                <div class="card-header">
+                    Başvuru Formu
+                </div>
+                <div class="card-body">
+                     <form asp-action="apply" method="POST">
+                           
+                            <div asp-validation-summary="All"></div>
+                            <div class="form-group">
+                                <label asp-for="TalepGelisTarihi">Talep Geliş Tarihi</label>
+                                <input asp-for="TalepGelisTarihi" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="Temrin">Temrin</label>
+                                <input asp-for="Temrin" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="Artikel">Artikel</label>
+                                <input asp-for="Artikel" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="MusteriModelNumarasi">Müşteri Model Numarası</label>
+                                <input asp-for="MusteriModelNumarasi" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="Beden">Beden</label>
+                                <select asp-for="Beden" class="form-control">
+                                    <option value="">Seçiniz</option>
+                                    <option value="true">S</option>
+                                    <option value="true">M</option>
+                                    <option value="true">L</option>
+                                    <option value="true">XL</option>
+                                    <option value="true">XXL</option>
+                                    <option value="true">XXXL</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="Renk">Renk</label>
+                                <input asp-for="Renk" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="NumuneTipi">Numune Tipi</label>
+                                <input asp-for="NumuneTipi" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="ModelistVeArgeci">Modelist ve Argeci</label>
+                                <input asp-for="ModelistVeArgeci" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="ModelAciklamasi">Model Açıklaması</label>
+                                <input asp-for="ModelAciklamasi" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="AksesuarSiparisTarihi">Aksesuar Sipariş Tarihi</label>
+                                <input asp-for="AksesuarSiparisTarihi" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="AksesuarTemrin">Aksesuar Temrin</label>
+                                <input asp-for="AksesuarTemrin" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="OrguBitisTarihi">Örgü Bitiş Tarihi</label>
+                                <input asp-for="OrguBitisTarihi" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="PlanlananBoyaGonderim">Planlnan Boya Gönderim</label>
+                                <input asp-for="PlanlananBoyaGonderim" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="BoyadanGelis">Boyadan geliş</label>
+                                <input asp-for="BoyadanGelis" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="DikimBitis">Dikim Bitiş</label>
+                                <input asp-for="DikimBitis" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="SonDurum">Son Durum</label>
+                                <input asp-for="SonDurum" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="TeslimTarihi">Teslim Tarihi</label>
+                                <input asp-for="TeslimTarihi" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="GecikmeAciklama">Gecikme Açıklama</label>
+                                <input asp-for="GecikmeAciklama" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="TeslimSuresi">Teslim Süresi</label>
+                                <input asp-for="TeslimSuresi" class="form-control">
+                            </div>
+                            <input type="submit" value="Submit" class="btn btn-primary btn-block">
+                        </form>
+                </div>
+            </div>
+        </div>
+
+    
+   
+
+</body>
+</html>
